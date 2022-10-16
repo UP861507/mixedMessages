@@ -5,11 +5,11 @@ const random = () => {
 
     //make type of food random
     let randomMain = Math.floor(Math.random() * main.length);
-    let randomSAuce = Math.floor(Math.random() * sauce.length);
+    let randomSauce = Math.floor(Math.random() * sauce.length);
 
     //output random result to console
     let output = [];
-    output.push(`you can get ${main} with ${sauce} when feeling hungry`);
+    output.push(`you can get ${randomMain} with ${randomSauce} when feeling hungry`);
     return output
 };
 
