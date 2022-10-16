@@ -13,4 +13,4 @@ const random = () => {
     return output
 };
 
-console.log(random);
+console.log(random());
